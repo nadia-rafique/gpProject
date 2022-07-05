@@ -81,7 +81,7 @@ body{
 svg{
     height: 50px; 
     width:50px; 
-    margin-top:-15px;
+    margin-top:5px;
 }
 svg path{
    fill: rgb(241, 186, 48);
