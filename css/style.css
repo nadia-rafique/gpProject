@@ -23,24 +23,41 @@ body{
     background-color: rgba(0, 0, 0, 0.678);
     opacity: 0.7;
     height: 670px;
+    background-blend-mode: darken;
 } 
-.content>h1{
+.content1{
    text-align: center;
-   position: absolute;
-   padding-top: 400px;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   margin: 0;
-   font-size: 56px;
-   font-weight: 700;
-   line-height: 74px;
-   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   flex-direction: column;
 }
-.content>p{
+.content1>div>h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    color: #fff;
+}
+.content1>div>p{
     color: #fff;
     margin: 0;
     font-size: 24px;
     font-weight: 300;
-    padding-top: 275px;
-    padding-left: 430px;
+}
+.icon-box{
+    padding: 30px 20px;
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.icon-box>i{
+    font-size: 20px;
+}
+.icon-box:hover{
+    border:2px solid rgb(240, 181, 34);
+    box-shadow: rgb(239, 186, 53);
+    color: rgb(241, 186, 48);
 }
