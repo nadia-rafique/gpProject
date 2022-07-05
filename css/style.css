@@ -2,8 +2,12 @@ body{
     margin: 0px;
    font-family: "Poppins", sans-serif;
 }
+.nav{
+    height: 80px;
+    width: 100%;
+}
 .logo{
-    margin-left: 40px;
+    margin-left: 30px;
     font-weight: bold;
 }
 .bg-dark1{
@@ -11,19 +15,20 @@ body{
 }
 .btn1{
     width: 140px;
-    margin: 10px 5px 10px 180px;
+    margin: 10px 5px 10px 90px;
 }
 .bgimg{
-    height: 1280px;
+    height: 670px;
     background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content{
     background-color: rgba(0, 0, 0, 0.678);
-    opacity: 0.7;
     height: 670px;
-    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 .content1{
    text-align: center;
@@ -53,11 +58,45 @@ body{
     text-align: center;
     color: #fff;
 }
-.icon-box>i{
+.icon-box>h3{
+    margin-top: 10px;
+    margin-bottom: -10px;
     font-size: 20px;
+    line-height: 26px;
 }
 .icon-box:hover{
     border:2px solid rgb(240, 181, 34);
     box-shadow: rgb(239, 186, 53);
     color: rgb(241, 186, 48);
+}
+.about>h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(68, 68, 68);
+}
+.about-img{
+    max-width: 100%;
+    height: auto;
+}
+svg{
+    height: 50px; 
+    width:50px; 
+    margin-top:-15px;
+}
+svg path{
+   fill: rgb(241, 186, 48);
+}
+.services{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+.service{
+    margin-top: -20px;
+}
+.service>h5{
+    font-size: 20px;
+}
+.service>p{
+    font-size: 13px;
 }
