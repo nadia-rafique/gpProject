@@ -266,3 +266,42 @@ body{
     padding-left: 30px;
     font-weight: 500;
 }
+.hclient>h3{
+    font-weight: 700;
+    font-size: 36px;
+    color: #151515;
+    font-family: "Raleway", sans-serif;
+}
+.hclient>p{
+    color: #151515;
+    font-size: 14px;
+    font-family:"Raleway", sans-serif;
+}
+.csection1{
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(/images/testimonials-bg.jpg) fixed center center;
+    background-size: cover;
+    height: 420px;
+    overflow: hidden;
+}
+.card-body>h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #151515;
+    text-align: left;
+}
+.card-body{
+    padding: 25px 15px;
+}
+.card-body>p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+    text-align: left;
+}
+.team{
+    height: 340px;
+}
+.cntct{
+    margin-top:100px ;
+}
