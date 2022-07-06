@@ -100,3 +100,41 @@ svg path{
 .service>p{
     font-size: 13px;
 }
+.service-title>h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+.service-title>h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background-color: #ffde9e;
+    margin: 4px 12px;
+}
+.service-title>p{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #151515;
+}
+.icon-box>.icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #ffc451;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    color: #151515;
+}
