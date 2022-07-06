@@ -78,13 +78,16 @@ body{
     max-width: 100%;
     height: auto;
 }
-svg{
+.icon-box>svg{
     height: 50px; 
     width:50px; 
     margin-top:5px;
 }
-svg path{
+.icon-box>svg>path{
    fill: rgb(241, 186, 48);
+}
+.icon-box1>svg>path{
+    fill: rgb(241, 186, 48);
 }
 .services{
     width: 60px;
@@ -125,16 +128,116 @@ svg path{
     text-transform: uppercase;
     color: #151515;
 }
-.icon-box>.icon {
-    margin: 0 auto;
+.card>.c-icon{
+    margin: 40px auto;
     width: 64px;
     height: 64px;
-    background: #ffc451;
+    background-color: #ffc551e2;
+    fill: #222121ee;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    transition: 0.3s;
+}
+.card>.c-icon>svg{
+    width: 25px;
+}
+.card-body>h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 24px;
     color: #151515;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+.card-body>h4:hover{
+    color: #ffc551e2;
+}
+.card-body>p{
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.card{
+    transition: box-shadow .3s;
+    height: 350px;
+    background-color: #fff;
+}
+.card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.csection{
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(/images/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    height: 280px;
+    overflow: hidden;
+}
+.cta>h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family:"Raleway", sans-serif;
+    display: flex;
+    flex-flow: column;
+    margin-top: 90px;
+}
+.cta>p{
+    color: #fff;
+    font-family:"Raleway", sans-serif;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFA500;
+    margin-bottom: 30px;
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #FFA500;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #FFA500;
+    color: white;
+}
+ 
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+img{
+    transition: box-shadow .3s;
+    border-radius: 5px;
+}
+img:hover{
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.st{
+    margin-top: -100px;
+}
+.lmp{
+    margin-top: -228px;
+}
+.wtch{
+    margin-left: 399px;
+    margin-top: -186px;
 }
