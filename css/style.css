@@ -128,6 +128,7 @@ body{
     text-transform: uppercase;
     color: #151515;
 }
+
 .card>.c-icon{
     margin: 40px auto;
     width: 64px;
@@ -162,7 +163,7 @@ body{
 }
 .card{
     transition: box-shadow .3s;
-    height: 350px;
+    height: 300px;
     background-color: #fff;
 }
 .card:hover{
@@ -305,3 +306,191 @@ body{
 .cntct{
     margin-top:100px ;
 }
+.email-form {
+    width: 100%;
+    background: #fff;
+}
+.email-form .form-group {
+    padding-bottom: 8px;
+}
+.email-form input, .email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+.email-form input:focus, .email-form textarea:focus {
+    border-color: #ffc451;
+  }
+.email-form input {
+    height: 44px;
+  }
+.email-form textarea {
+    padding: 10px 12px;
+  }
+.email-form button[type=submit] {
+    background: #ffc451;
+    border: 0;
+    padding: 10px 24px;
+    color: #151515;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+.email-form button[type=submit]:hover {
+    background: #ffcd6b;
+  }
+  .c-icon1{
+    margin: 14px 0;
+    width: 57px;
+    height: 55px;
+    background-color: #ffc551e2;
+    fill: #222121ee;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.info h4{
+        padding: 0 0 0 90px;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: -60px;
+        color: #151515;
+}
+.info p {
+    padding: 0 0 0 90px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #484848;
+  }
+  .info .address{
+    margin-bottom: -5px;
+  }
+  .email{
+    margin-bottom: 14px;
+  }
+  footer {
+    background: black;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  #footer .footer-top {
+    background: #151515;
+    border-bottom: 1px solid #222222;
+    padding: 60px 0 30px 0;
+  }
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .footer-info h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  #footer .footer-top .footer-info h3 span {
+    color: #ffc451;
+  }
+  #footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+  }
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #292929;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  #footer .footer-top .social-links a:hover {
+    background: #ffc451;
+    color: #151515;
+    text-decoration: none;
+  }
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #ffc451;
+    font-size: 18px;
+    line-height: 1;
+  }
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  #footer .footer-top .footer-links ul a {
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+  }
+  #footer .footer-top .footer-links ul a:hover {
+    color: #ffc451;
+  }
+  #footer .footer-top .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+  }
+  #footer .footer-top .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 110px);
+  }
+  #footer .footer-top .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #ffc451;
+    color: #151515;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+  }
+  #footer .footer-top .footer-newsletter form input[type=submit]:hover {
+    background: #ffcd6b;
+  }
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
