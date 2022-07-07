@@ -91,6 +91,34 @@ body{
 .icon-box1>svg>path{
     fill: rgb(241, 186, 48);
 }
+/*client*/
+.clients{
+    padding-top: 20px;
+}
+.swiper-slide>img {
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+}
+.swiper-slide>img:hover {
+    filter: none;
+    opacity: 1;
+}
+.swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    background-color: #ddd;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #ffc451;
+}
+  
 /*services*/
 .services{
     width: 60px;
