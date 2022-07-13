@@ -150,7 +150,6 @@ jQuery(function ($) {
 var $grid = $('.grid').isotope({
 	// options
 	itemSelector: '.grid-item',
-	layoutMode: 'fitRows',
   });
   
   // change is-checked class on buttons
