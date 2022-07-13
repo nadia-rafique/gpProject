@@ -1,7 +1,6 @@
-* {
-    overflow-x:clip;
-  } 
+
 body{
+    width: 100%;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -9,7 +8,7 @@ body{
 }
 /*header*/
 .nav{
-    width: 100%;
+    width: 1278px;
     height: 80px;
 }
 .logo{
@@ -21,10 +20,10 @@ body{
 }
 .btn1{
     width: 140px;
-    margin: 10px 5px 10px 90px;
+    margin: 10px 60px 10px 0px;
 }
 .bgimg{
-    height: 670px;
+    height: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,10 +75,12 @@ body{
     color: rgb(241, 186, 48);
 }
 /*about*/
+
 .about>h3{
     font-size: 28px;
     font-weight: 700;
     color: rgb(68, 68, 68);
+    overflow: hidden;
 }
 /* ClientSection */
 .icon-box>svg{
@@ -95,6 +96,7 @@ body{
 }
 .clients{
     padding-top: 20px;
+    overflow: hidden;
 }
 .swiper-slide>img {
     opacity: 0.5;
@@ -119,7 +121,9 @@ body{
 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #ffc451;
 }
-  
+.cs{
+    overflow: hidden;
+}
 /*services*/
 .services{
     width: 60px;
@@ -207,7 +211,7 @@ body{
     background-size: cover;
     height: 280px;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .cta>h3{
     color: #fff;
@@ -367,6 +371,9 @@ body{
     padding: 0;
   }  
 /*Counter area*/
+.counter1{
+    overflow-x: hidden;
+}
 .counts>h3{
     font-weight: 700;
     font-size: 34px;
