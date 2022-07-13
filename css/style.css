@@ -1,11 +1,16 @@
+* {
+    overflow-x:clip;
+  } 
 body{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
    font-family: "Poppins", sans-serif;
 }
 /*header*/
 .nav{
-    height: 80px;
     width: 100%;
+    height: 80px;
 }
 .logo{
     margin-left: 30px;
@@ -76,10 +81,7 @@ body{
     font-weight: 700;
     color: rgb(68, 68, 68);
 }
-.about-img{
-    max-width: 100%;
-    height: auto;
-}
+/* ClientSection */
 .icon-box>svg{
     height: 50px; 
     width:50px; 
@@ -91,7 +93,6 @@ body{
 .icon-box1>svg>path{
     fill: rgb(241, 186, 48);
 }
-/*client*/
 .clients{
     padding-top: 20px;
 }
@@ -205,6 +206,7 @@ body{
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(/images/cta-bg.jpg) fixed center center;
     background-size: cover;
     height: 280px;
+    width: 100%;
     overflow: hidden;
 }
 .cta>h3{
