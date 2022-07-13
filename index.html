@@ -10,7 +10,8 @@
     <!--STYLE-->
     <link rel="stylesheet" href="css/style.css">
      <!--Bootstrap-->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+  <link href="js/glightbox/css/glightbox.min.css" rel="stylesheet">
     <!--For Countdown-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
@@ -336,66 +337,163 @@
    </div>
   </section>
   <!--Portfolio-->
-  <section class="container mt-5" id="portfolio">
-    <div class="service-title" data-aos="fade-up">
+  <section id="portfolio" class="portfolio mt-5">
+    <div class="container" data-aos="fade-up">
+
+      <div class="service-title">
         <h2>Portfolio</h2>
         <p>Check our Portfolio</p>
-    </div>
-    <div class="row" class="gallery" data-aos="fade-up" data-aos-delay="600">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img src="images/portfolio-1.jpg" data-gallery-tag="app" class="gallery-item w-100 rounded mb-4"
-            alt=""/>
-      
-          <img
-            src="images/portfolio-6.jpg" data-gallery-tag="app" class="gallery-item w-100 rounded mb-4"
-            alt=""
-          />
-        </div>
-      
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="images/portfolio-2.jpg" data-gallery-tag="web"
-            class="w-100 rounded mb-4 gallery-item"
-            alt=""
-          />
-      
-          <img
-            src="images/portfolio-5.jpg" data-gallery-tag="web"
-            class="w-100 rounded mb-4 gallery-item"
-            alt=""
-          />
-          <img
-            src="images/portfolio-9.jpg" data-gallery-tag="web"
-            class="w-100 rounded mb-4 gallery-item"
-            alt=""
-          />
-        </div>
-      
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="images/portfolio-3.jpg" data-gallery-tag="app"
-            class="w-100 rounded mb-4 gallery-item"
-            alt=""
-          />
-          <img
-            src="images/portfolio-4.jpg" data-gallery-tag="card"
-            class="w-100 rounded mb-4 gallery-item"
-            alt=""
-          />
-          <img
-            src="images/portfolio-7.jpg" data-gallery-tag="card"
-            class="w-100 rounded mb-4 gallery-item"
-            alt=""
-          />
-          <img
-            src="images/portfolio-8.jpg" data-gallery-tag="card"
-            class="w-100 rounded mb-4 gallery-item"
-            alt=""
-          />
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <div class="filters">
+            <ul>
+              <li data-filter="*" class="is-checked">All</li>
+              <li data-filter=".app">App</li>
+              <li data-filter=".card">Card</li>
+              <li data-filter=".web">Web</li>
+            </ul>
+          </div>
         </div>
       </div>
-  </section>
 
+      <div class="row portfolio-container grid data-isotope='{ 'itemSelector': '.grid-item', 'masonry': { 'columnWidth': 200 } }'" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item app" data-category="apps">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
+                  <i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details">
+                  <i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item web" data-category="web">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3">
+                  <i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details">
+                  <i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item app" data-category="apps">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item app" data-category="apps">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item web" data-category="web">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item card" data-category="card">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item card" data-category="card">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item card" data-category="card">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item grid-item web" data-category="web">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="images/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="fa fa-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
   <!--Counter-->
 <section>
     <div class="container mt-5">
@@ -459,7 +557,6 @@
   <!--Testimonials Section-->
   <section id="testimonials" class="testimonials mt-5">
     <div class="container" data-aos="zoom-in">
-
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
 
@@ -469,38 +566,36 @@
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i class="fa fa-quote-alt-left quote-icon-left"></i>
                 Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i class="fa fa-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
-
+          </div>
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="images/testimonials-2.jpg" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i class="fa fas-quote-alt-left quote-icon-left"></i>
                 Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i class="fa fas-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
-
+          </div>
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="images/testimonials-3.jpg" class="testimonial-img" alt="">
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i class="fa fa-quote-alt-left quote-icon-left"></i>
                 Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i class="fa fa-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -508,31 +603,29 @@
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i class="fa fa-quote-alt-left quote-icon-left"></i>
                 Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i class="fa fa-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
-
+          </div>
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="images/testimonials-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i class="fa fa-quote-alt-left quote-icon-left"></i>
                 Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i class="fa fa-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
-
     </div>
-  </section><!-- End Testimonials Section -->
+  </section>
     
 <section id="team" class="container mt-5 team" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
     <div class="service-title">
@@ -751,23 +844,24 @@
   
   <!-- End Footer -->
 
+
+
+  
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/bootstrap.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="assets/maugallery.js"></script>
+    <script src="js/glightbox/js/glightbox.min.js"></script>
+    <script src="src/maugallery.js"></script>
     <script src="assets/scripts.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
     <script>
         AOS.init();
     </script>
-   <script src="js/main.js"></script>
 </body>
 </html>
