@@ -74,13 +74,19 @@ body{
     box-shadow: rgb(239, 186, 53);
     color: rgb(241, 186, 48);
 }
+@media (max-width: 545px) {
+    .content {
+      height:1163px;
+    }
+  }
 /*about*/
-
+#about{
+    overflow: hidden;
+}
 .about>h3{
     font-size: 28px;
     font-weight: 700;
     color: rgb(68, 68, 68);
-    overflow: hidden;
 }
 /* ClientSection */
 .icon-box>svg{
@@ -372,7 +378,7 @@ body{
   }  
 /*Counter area*/
 .counter1{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .counts>h3{
     font-weight: 700;
