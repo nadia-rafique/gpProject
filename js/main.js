@@ -46,7 +46,6 @@
       clickable: true
     }
   });
-  //FilterSelection
 //Counter
 (function ($) {
 	$.fn.countTo = function (options) {
